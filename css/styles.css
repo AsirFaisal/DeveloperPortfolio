@@ -8,7 +8,7 @@ h1 {
 span {
   color: orange;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 110px;
 }
@@ -35,4 +35,18 @@ section {
   background-image: url(/images/dream-bg.png);
   background-position: right;
   background-repeat: no-repeat;
+}
+.experience {
+  background-image: url(/images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.ex-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: 10px solid;
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
 }
